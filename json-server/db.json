@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "userId": 1
+    },
+    {
+      "id": "2",
+      "title": "json-server",
+      "userId": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123"
+    }
+  ],
+  "profile": {
+    "first": "Полина",
+    "lastname": "Разгильдяйка",
+    "age": 99999999999999,
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Moscow",
+    "username": "admin",
+    "avatar": "https://pic.repetitors.info/xfiles/pfiles/590f3c39fa3f4ceca7197084aae4b783.jpg-profi_a34-300.jpg"
+  }
+}
